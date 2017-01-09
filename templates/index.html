@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Flask-SocketIO</title>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/socket.io/1.3.6/socket.io.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="">
+    <script type="text/javascript" charset="utf-8">
+    
+    $(document).ready(function(){
+           
+            var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+            socket.on('news', function(msg){
+                console.log(msg);
+                $('#listan').append('<li>' + msg + '</li>');
+            });
+            socket.on('my response', function(msg){
+                console.log(msg);
+                $('#listan').append('<li>' + msg.data + '</li>');
+            });
+
+            $('#exit').on('click', function(){
+                socket.emit('exit', 'exit');
+            });
+
+
+        });
+</script>
+</head>
+<body>
+    <h3>Movement</h3>
+    <button id="exit">Stop</button>
+    <h1 > Hello </h1>
+    <ul id="listan">
+        
+    </ul>
+</body>
+</html>
