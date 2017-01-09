@@ -71,8 +71,7 @@ class Arduino (Thread):
 
                 elif data == "Stop":
                     # print_out("Stop receiving movements")
-                    global receive_movement
-                    receive_movement = False
+    
                     sleep(1)
 
 
