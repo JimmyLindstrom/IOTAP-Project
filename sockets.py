@@ -79,11 +79,6 @@ class Bluemix (threading.Thread):
     def run(self):
         print('Bluemix thread started')
 
-        organization = "zx1tf2"
-        deviceType = "Computer"
-        deviceId = "112233445566"
-        authMethod = "token"
-        authToken = "aOj?zxZY+KtZdUix+C"
 
         """ method handling the command callbacks from BlueMix """
         def myCommandCallback(cmd):
@@ -96,7 +91,9 @@ class Bluemix (threading.Thread):
 
         # Initialize the device deviceCli.
         try:
-            deviceCliOptions = {"org": organization, "type": deviceType, "id": deviceId, "auth-method": authMethod, "auth-token": authToken}
+            # deviceCliOptions = {"org": organization, "type": deviceType, "id": deviceId, "auth-method": authMethod, "auth-token": authToken}
+            path = os.path.join(sys.path[0], 'config.txt')
+            deviceCliOptions = ibmiotf.device.ParseConfigFile(path)
             deviceCli = ibmiotf.device.Client(deviceCliOptions)
         except Exception as e:
             print("Caught exception connecting device: %s" % str(e))

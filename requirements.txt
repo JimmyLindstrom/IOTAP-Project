@@ -12,7 +12,6 @@ MarkupSafe==0.23
 paho-mqtt==1.2
 pyserial==2.7
 python-engineio==1.1.0
-python-slugify==1.2.1
 python-socketio==1.6.2
 pytz==2016.10
 requests==2.12.4
