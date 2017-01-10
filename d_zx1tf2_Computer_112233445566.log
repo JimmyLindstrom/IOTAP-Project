@@ -1,0 +1,264 @@
+2017-01-09 11:54:44,329   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:54:45,888   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 11:54:45,890   ibmiotf.device.Client      INFO    Messages published : 1, life: 2s, rate: 1/2.23s
+2017-01-09 11:54:45,891   ibmiotf.device.Client      INFO    Messages received  : 0, life: 2s, rate: 1/0.00s
+2017-01-09 11:54:47,016   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:54:48,371   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 11:54:48,372   ibmiotf.device.Client      INFO    Messages published : 2, life: 5s, rate: 1/2.36s
+2017-01-09 11:54:48,375   ibmiotf.device.Client      INFO    Messages received  : 0, life: 5s, rate: 1/0.00s
+2017-01-09 11:54:49,530   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:54:51,351   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 11:54:51,352   ibmiotf.device.Client      INFO    Messages published : 3, life: 8s, rate: 1/2.57s
+2017-01-09 11:54:51,355   ibmiotf.device.Client      INFO    Messages received  : 0, life: 8s, rate: 1/0.00s
+2017-01-09 11:54:52,492   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:54:54,374   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 11:54:54,375   ibmiotf.device.Client      INFO    Messages published : 4, life: 11s, rate: 1/2.68s
+2017-01-09 11:54:54,378   ibmiotf.device.Client      INFO    Messages received  : 0, life: 11s, rate: 1/0.00s
+2017-01-09 11:54:56,546   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:54:58,384   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 11:54:58,387   ibmiotf.device.Client      INFO    Messages published : 6, life: 15s, rate: 1/2.46s
+2017-01-09 11:54:58,388   ibmiotf.device.Client      INFO    Messages received  : 0, life: 15s, rate: 1/0.00s
+2017-01-09 11:54:59,536   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:55:01,244   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 11:55:01,246   ibmiotf.device.Client      INFO    Messages published : 7, life: 18s, rate: 1/2.51s
+2017-01-09 11:55:01,247   ibmiotf.device.Client      INFO    Messages received  : 0, life: 18s, rate: 1/0.00s
+2017-01-09 11:55:02,391   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:55:05,372   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 11:55:05,375   ibmiotf.device.Client      INFO    Messages published : 9, life: 22s, rate: 1/2.41s
+2017-01-09 11:55:05,378   ibmiotf.device.Client      INFO    Messages received  : 0, life: 22s, rate: 1/0.00s
+2017-01-09 11:55:06,540   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:55:07,812   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 11:55:07,815   ibmiotf.device.Client      INFO    Messages published : 9, life: 24s, rate: 1/2.68s
+2017-01-09 11:55:07,816   ibmiotf.device.Client      INFO    Messages received  : 0, life: 24s, rate: 1/0.00s
+2017-01-09 11:55:08,997   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:55:18,384   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 11:55:18,385   ibmiotf.device.Client      INFO    Messages published : 14, life: 35s, rate: 1/2.48s
+2017-01-09 11:55:18,388   ibmiotf.device.Client      INFO    Messages received  : 0, life: 35s, rate: 1/0.00s
+2017-01-09 11:55:20,542   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:55:23,367   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 11:55:23,369   ibmiotf.device.Client      INFO    Messages published : 16, life: 40s, rate: 1/2.48s
+2017-01-09 11:55:23,371   ibmiotf.device.Client      INFO    Messages received  : 0, life: 40s, rate: 1/0.00s
+2017-01-09 11:55:26,394   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 11:57:44,611   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 12:00:45,105   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 12:02:20,546   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 12:04:40,244   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 12:05:05,823   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 12:06:11,164   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 12:07:35,434   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 12:25:02,122   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 12:27:43,779   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 12:37:33,157   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 12:45:53,108   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:12:55,013   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:14:00,246   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:15:44,568   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:17:24,154   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:18:56,737   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:26:53,433   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:30:38,812   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:30:40,150   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 13:30:40,151   ibmiotf.device.Client      INFO    Messages published : 0, life: 2s, rate: 1/0.00s
+2017-01-09 13:30:40,151   ibmiotf.device.Client      INFO    Messages received  : 0, life: 2s, rate: 1/0.00s
+2017-01-09 13:30:42,525   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:30:44,038   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 13:30:44,039   ibmiotf.device.Client      INFO    Messages published : 0, life: 6s, rate: 1/0.00s
+2017-01-09 13:30:44,039   ibmiotf.device.Client      INFO    Messages received  : 0, life: 6s, rate: 1/0.00s
+2017-01-09 13:30:45,203   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:30:46,483   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 13:30:46,483   ibmiotf.device.Client      INFO    Messages published : 0, life: 8s, rate: 1/0.00s
+2017-01-09 13:30:46,484   ibmiotf.device.Client      INFO    Messages received  : 0, life: 8s, rate: 1/0.00s
+2017-01-09 13:30:47,618   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:30:50,178   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 13:30:50,180   ibmiotf.device.Client      INFO    Messages published : 0, life: 12s, rate: 1/0.00s
+2017-01-09 13:30:50,181   ibmiotf.device.Client      INFO    Messages received  : 0, life: 12s, rate: 1/0.00s
+2017-01-09 13:30:51,717   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:31:09,792   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:44:51,051   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 13:48:03,038   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:03:37,062   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:03:39,161   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 14:03:39,161   ibmiotf.device.Client      INFO    Messages published : 0, life: 4s, rate: 1/0.00s
+2017-01-09 14:03:39,163   ibmiotf.device.Client      INFO    Messages received  : 0, life: 4s, rate: 1/0.00s
+2017-01-09 14:03:41,301   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:03:42,542   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 14:03:42,543   ibmiotf.device.Client      INFO    Messages published : 0, life: 7s, rate: 1/0.00s
+2017-01-09 14:03:42,543   ibmiotf.device.Client      INFO    Messages received  : 0, life: 7s, rate: 1/0.00s
+2017-01-09 14:03:43,673   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:03:46,796   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 14:03:46,796   ibmiotf.device.Client      INFO    Messages published : 0, life: 11s, rate: 1/0.00s
+2017-01-09 14:03:46,798   ibmiotf.device.Client      INFO    Messages received  : 0, life: 11s, rate: 1/0.00s
+2017-01-09 14:03:47,914   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:03:49,309   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 14:03:49,309   ibmiotf.device.Client      INFO    Messages published : 0, life: 14s, rate: 1/0.00s
+2017-01-09 14:03:49,309   ibmiotf.device.Client      INFO    Messages received  : 0, life: 14s, rate: 1/0.00s
+2017-01-09 14:03:50,447   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:03:53,556   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 14:03:53,556   ibmiotf.device.Client      INFO    Messages published : 0, life: 18s, rate: 1/0.00s
+2017-01-09 14:03:53,558   ibmiotf.device.Client      INFO    Messages received  : 0, life: 18s, rate: 1/0.00s
+2017-01-09 14:03:56,674   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:03:59,911   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 14:03:59,911   ibmiotf.device.Client      INFO    Messages published : 0, life: 24s, rate: 1/0.00s
+2017-01-09 14:03:59,911   ibmiotf.device.Client      INFO    Messages received  : 0, life: 24s, rate: 1/0.00s
+2017-01-09 14:04:01,043   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:04:02,413   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 14:04:02,414   ibmiotf.device.Client      INFO    Messages published : 0, life: 27s, rate: 1/0.00s
+2017-01-09 14:04:02,414   ibmiotf.device.Client      INFO    Messages received  : 0, life: 27s, rate: 1/0.00s
+2017-01-09 14:04:05,533   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:04:08,640   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 14:04:08,641   ibmiotf.device.Client      INFO    Messages published : 0, life: 33s, rate: 1/0.00s
+2017-01-09 14:04:08,641   ibmiotf.device.Client      INFO    Messages received  : 0, life: 33s, rate: 1/0.00s
+2017-01-09 14:04:12,062   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:04:21,111   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:06:09,877   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:13:20,825   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:16:33,365   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:20:06,338   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:33:45,671   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:39:36,977   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:39:46,628   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-09 14:39:46,630   ibmiotf.device.Client      INFO    Messages published : 0, life: 10s, rate: 1/0.00s
+2017-01-09 14:39:46,631   ibmiotf.device.Client      INFO    Messages received  : 0, life: 10s, rate: 1/0.00s
+2017-01-09 14:39:48,773   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:49:17,174   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-09 14:49:26,220   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-09 14:49:26,220   ibmiotf.device.Client      INFO    Messages published : 0, life: 12s, rate: 1/0.00s
+2017-01-09 14:49:26,220   ibmiotf.device.Client      INFO    Messages received  : 0, life: 12s, rate: 1/0.00s
+2017-01-09 14:49:26,221   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 09:31:30,102   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 09:32:34,204   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 09:32:34,204   ibmiotf.device.Client      INFO    Messages published : 0, life: 65s, rate: 1/0.00s
+2017-01-10 09:32:34,206   ibmiotf.device.Client      INFO    Messages received  : 0, life: 65s, rate: 1/0.00s
+2017-01-10 09:32:34,206   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 09:37:51,684   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 09:38:21,737   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 09:38:21,737   ibmiotf.device.Client      INFO    Messages published : 0, life: 31s, rate: 1/0.00s
+2017-01-10 09:38:21,737   ibmiotf.device.Client      INFO    Messages received  : 0, life: 31s, rate: 1/0.00s
+2017-01-10 09:38:21,739   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 09:43:47,279   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 09:46:05,423   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 09:46:05,423   ibmiotf.device.Client      INFO    Messages published : 0, life: 139s, rate: 1/0.00s
+2017-01-10 09:46:05,424   ibmiotf.device.Client      INFO    Messages received  : 0, life: 139s, rate: 1/0.00s
+2017-01-10 09:46:05,424   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 09:50:44,711   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 09:54:00,950   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 09:54:00,951   ibmiotf.device.Client      INFO    Messages published : 0, life: 197s, rate: 1/0.00s
+2017-01-10 09:54:00,951   ibmiotf.device.Client      INFO    Messages received  : 0, life: 197s, rate: 1/0.00s
+2017-01-10 09:54:00,953   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 09:55:34,098   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 09:55:46,134   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 09:55:46,134   ibmiotf.device.Client      INFO    Messages published : 0, life: 13s, rate: 1/0.00s
+2017-01-10 09:55:46,135   ibmiotf.device.Client      INFO    Messages received  : 0, life: 13s, rate: 1/0.00s
+2017-01-10 09:55:46,137   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 10:05:01,604   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 10:05:37,667   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 10:05:37,667   ibmiotf.device.Client      INFO    Messages published : 0, life: 37s, rate: 1/0.00s
+2017-01-10 10:05:37,667   ibmiotf.device.Client      INFO    Messages received  : 0, life: 37s, rate: 1/0.00s
+2017-01-10 10:05:37,668   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 10:10:22,819   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 10:11:20,911   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 10:11:20,911   ibmiotf.device.Client      INFO    Messages published : 0, life: 60s, rate: 1/0.00s
+2017-01-10 10:11:20,911   ibmiotf.device.Client      INFO    Messages received  : 0, life: 60s, rate: 1/0.00s
+2017-01-10 10:11:20,911   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 10:21:00,938   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 10:21:27,426   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 10:21:27,427   ibmiotf.device.Client      INFO    Messages published : 0, life: 27s, rate: 1/0.00s
+2017-01-10 10:21:27,428   ibmiotf.device.Client      INFO    Messages received  : 0, life: 27s, rate: 1/0.00s
+2017-01-10 10:21:27,430   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 10:23:48,803   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 10:26:30,061   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 10:27:54,170   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 10:27:54,170   ibmiotf.device.Client      INFO    Messages published : 0, life: 85s, rate: 1/0.00s
+2017-01-10 10:27:54,170   ibmiotf.device.Client      INFO    Messages received  : 0, life: 85s, rate: 1/0.00s
+2017-01-10 10:27:54,171   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 10:31:10,765   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 10:33:38,951   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 10:33:38,953   ibmiotf.device.Client      INFO    Messages published : 0, life: 149s, rate: 1/0.00s
+2017-01-10 10:33:38,953   ibmiotf.device.Client      INFO    Messages received  : 12, life: 149s, rate: 1/12.40s
+2017-01-10 10:33:38,953   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 10:45:59,565   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 10:46:04,148   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 10:46:04,148   ibmiotf.device.Client      INFO    Messages published : 0, life: 5s, rate: 1/0.00s
+2017-01-10 10:46:04,151   ibmiotf.device.Client      INFO    Messages received  : 0, life: 5s, rate: 1/0.00s
+2017-01-10 10:46:04,151   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 10:47:21,244   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 10:47:24,887   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 10:47:24,888   ibmiotf.device.Client      INFO    Messages published : 0, life: 4s, rate: 1/0.00s
+2017-01-10 10:47:24,888   ibmiotf.device.Client      INFO    Messages received  : 0, life: 4s, rate: 1/0.00s
+2017-01-10 10:47:24,888   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 10:49:10,719   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 10:49:32,390   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 10:49:32,390   ibmiotf.device.Client      INFO    Messages published : 3, life: 22s, rate: 1/7.44s
+2017-01-10 10:49:32,391   ibmiotf.device.Client      INFO    Messages received  : 0, life: 22s, rate: 1/0.00s
+2017-01-10 10:49:32,391   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 10:54:36,111   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 10:54:54,118   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 10:54:54,118   ibmiotf.device.Client      INFO    Messages published : 3, life: 19s, rate: 1/6.21s
+2017-01-10 10:54:54,118   ibmiotf.device.Client      INFO    Messages received  : 0, life: 19s, rate: 1/0.00s
+2017-01-10 10:54:54,119   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 11:04:52,851   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 11:05:04,766   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 11:05:04,766   ibmiotf.device.Client      INFO    Messages published : 3, life: 13s, rate: 1/4.22s
+2017-01-10 11:05:04,766   ibmiotf.device.Client      INFO    Messages received  : 0, life: 13s, rate: 1/0.00s
+2017-01-10 11:05:04,767   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 11:17:25,470   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 11:17:39,227   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 11:17:39,229   ibmiotf.device.Client      INFO    Messages published : 2, life: 14s, rate: 1/7.19s
+2017-01-10 11:17:39,230   ibmiotf.device.Client      INFO    Messages received  : 0, life: 14s, rate: 1/0.00s
+2017-01-10 11:17:39,230   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 11:21:01,223   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 11:21:14,717   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 11:21:14,717   ibmiotf.device.Client      INFO    Messages published : 2, life: 14s, rate: 1/7.10s
+2017-01-10 11:21:14,719   ibmiotf.device.Client      INFO    Messages received  : 0, life: 14s, rate: 1/0.00s
+2017-01-10 11:21:14,719   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 11:22:50,809   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 11:22:59,063   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 11:22:59,065   ibmiotf.device.Client      INFO    Messages published : 1, life: 9s, rate: 1/8.87s
+2017-01-10 11:22:59,065   ibmiotf.device.Client      INFO    Messages received  : 0, life: 9s, rate: 1/0.00s
+2017-01-10 11:22:59,065   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 11:25:18,559   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 11:25:25,390   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 11:25:25,391   ibmiotf.device.Client      INFO    Messages published : 1, life: 7s, rate: 1/7.42s
+2017-01-10 11:25:25,391   ibmiotf.device.Client      INFO    Messages received  : 0, life: 7s, rate: 1/0.00s
+2017-01-10 11:25:25,392   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 11:39:26,500   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 11:40:06,924   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 11:40:06,924   ibmiotf.device.Client      INFO    Messages published : 2, life: 41s, rate: 1/20.56s
+2017-01-10 11:40:06,926   ibmiotf.device.Client      INFO    Messages received  : 0, life: 41s, rate: 1/0.00s
+2017-01-10 11:40:06,927   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 13:13:08,667   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 13:13:31,456   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 13:13:31,457   ibmiotf.device.Client      INFO    Messages published : 2, life: 23s, rate: 1/11.73s
+2017-01-10 13:13:31,457   ibmiotf.device.Client      INFO    Messages received  : 0, life: 23s, rate: 1/0.00s
+2017-01-10 13:13:31,459   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 13:24:49,444   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 13:25:03,657   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 13:25:03,658   ibmiotf.device.Client      INFO    Messages published : 1, life: 15s, rate: 1/14.79s
+2017-01-10 13:25:03,658   ibmiotf.device.Client      INFO    Messages received  : 0, life: 15s, rate: 1/0.00s
+2017-01-10 13:25:03,660   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 13:32:51,229   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 15:10:05,914   ibmiotf.device.Client      ERROR   Unexpected disconnect from the IBM Watson IoT Platform
+2017-01-10 15:10:05,917   ibmiotf.device.Client      INFO    Messages published : 23, life: 5835s, rate: 1/253.71s
+2017-01-10 15:10:05,917   ibmiotf.device.Client      INFO    Messages received  : 0, life: 5835s, rate: 1/0.00s
+2017-01-10 15:10:08,315   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 18:20:45,289   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 18:20:45,292   ibmiotf.device.Client      INFO    Messages published : 51, life: 17275s, rate: 1/338.72s
+2017-01-10 18:20:45,292   ibmiotf.device.Client      INFO    Messages received  : 3, life: 17275s, rate: 1/5758.26s
+2017-01-10 18:20:45,293   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 18:22:51,253   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 18:24:16,142   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 18:32:41,075   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 18:32:42,486   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 18:32:42,486   ibmiotf.device.Client      INFO    Messages published : 0, life: 2s, rate: 1/0.00s
+2017-01-10 18:32:42,487   ibmiotf.device.Client      INFO    Messages received  : 0, life: 2s, rate: 1/0.00s
+2017-01-10 18:32:42,489   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 18:33:49,305   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 18:39:26,088   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 18:39:26,088   ibmiotf.device.Client      INFO    Messages published : 2, life: 338s, rate: 1/169.08s
+2017-01-10 18:39:26,089   ibmiotf.device.Client      INFO    Messages received  : 0, life: 338s, rate: 1/0.00s
+2017-01-10 18:39:26,091   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform
+2017-01-10 18:40:40,759   ibmiotf.device.Client      INFO    Connected successfully: d:zx1tf2:Computer:112233445566
+2017-01-10 18:40:47,009   ibmiotf.device.Client      INFO    Disconnected from the IBM Watson IoT Platform
+2017-01-10 18:40:47,010   ibmiotf.device.Client      INFO    Messages published : 0, life: 7s, rate: 1/0.00s
+2017-01-10 18:40:47,012   ibmiotf.device.Client      INFO    Messages received  : 0, life: 7s, rate: 1/0.00s
+2017-01-10 18:40:47,012   ibmiotf.device.Client      INFO    Closed connection to the IBM Watson IoT Platform

@@ -1,7 +1,8 @@
 from flask import Flask, render_template
 from flask_socketio import SocketIO, emit
-from time import sleep
-from threading import Thread
+import time
+from datetime import datetime
+import threading
 import serial.tools.list_ports
 import serial
 import sys
@@ -15,74 +16,65 @@ except ImportError:
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
-socketio = SocketIO(app)
-thread = None
-thread_2 = None
+socketio = SocketIO(app, async_mode='threading')
 
-receive_movement = False
 
 """ -----------------------------------------------
  Class that handles Arduino connection
 in a seperate thread, connecting and communicating 
 ---------------------------------------------------
 """
-class Arduino (Thread):
-    arduino = None
+class Arduino (threading.Thread):
     def __init__(self):
-        Thread.__init__(self)
+        threading.Thread.__init__(self)
         self.running = True
-
-    def end(arg):
-        running = False
-        
+        self.arduino = None
 
     def run(self):
-        print_out('Arduino thread started')
-        arduino = None
         for p in list(serial.tools.list_ports.comports()):
-            print_out(p[0])
             if "Arduino" in p[1]:
                 try:
-                    arduino = serial.Serial(p[0], 9600, timeout=10)
+                    self.arduino = serial.Serial(p[0], 9600, timeout=10)
                     print_out("Connected to " + p[0])
                     break
                 except serial.SerialException:
                     print("Couldn't connect to " + p[0])
 
-        if arduino is not None:
-            arduino.close()  # In case the port is already open this closes it.
-            arduino.open()  # Reopen the port.
-            moves = ['up', 'down', 'right', 'left', 'tilt-right', 'tilt-left']
-            count = 0
+        if self.arduino is not None:
+            self.arduino.close()  # In case the port is already open this closes it.
+            self.arduino.open()  # Reopen the port.
+            print_out('Arduino thread started')
             while self.running:
-                data = arduino.readline()[:-2]
+                if stop_running.is_set():
+                    self.arduino.close()
+                    self.arduino = None
+                    self.running = False
+                    print("Stoping arduino thread ")
+                if self.arduino is not None:
+                    data = self.arduino.readline()[:-2]
                 data = str(data)
-                if data == "Receive":
-                    global receive_movement
-                    receive_movement = True
-                    sleep(1)
-                    # print_out(moves[count])
-                    # old_count = count;
-                    # count = (count + 1) % len(moves)
-                    # with app.test_request_context('/'):
-                    #     print_out('before emit!!!')
-                    #     socketio.emit('news', moves[old_count])
+                if data == "Receive" and not receive_movement.is_set():
+                    print_out("Start receiving movements")
+                    receive_movement.set()
+                    with app.test_request_context('/'):
+                        print_out('user connected')
+                        socketio.emit('news', 'user connected')
 
+                elif data == "Stop" and receive_movement.is_set():
+                    print("Stop receiving movements!")
+                    receive_movement.clear()
+                    user_connect_sent.clear()
+            print_out('EXITING ARDUINO THREAD')
 
-                elif data == "Stop":
-                    # print_out("Stop receiving movements")
-    
-                    sleep(1)
-
-
-class Bluemix (Thread):
-
+""" -----------------------------------------------
+ Class that handles IBM Bluemix connection
+in a seperate thread, connecting and communicating 
+---------------------------------------------------
+"""
+class Bluemix (threading.Thread):
     def __init__(self):
-        Thread.__init__(self)
+        threading.Thread.__init__(self)
         self.running = True
-
-    def end(arg):
-        running = False
         
     def run(self):
         print('Bluemix thread started')
@@ -93,31 +85,13 @@ class Bluemix (Thread):
         authMethod = "token"
         authToken = "aOj?zxZY+KtZdUix+C"
 
+        """ method handling the command callbacks from BlueMix """
         def myCommandCallback(cmd):
-            print_out("Command received: %s" % cmd.data['d'])
+            print("Command received: %s" % cmd.data['d'])
             data = cmd.data['d']
-            print(cmd)
-            for key in data.keys():
-                print('key= ', key)
-            try:
-                print_out(data['movement'])
-            except KeyError:
-                print("KEYERROR!!")
-
-            if cmd.command == "setInterval":
-                if 'interval' not in cmd.data:
-                    print_out("Error - command is missing required information: 'interval'")
-                else:
-                    interval = cmd.data['interval']
-            elif cmd.command == "print":
-                if 'message' not in cmd.data:
-                    print_out("Error - command is missing required information: 'message'")
-                else:
-                    print_out(cmd.data['message'])
-            elif 'movement' in data.keys():
-                print_out("WE HAVE MOVEMENTS!!!!!!!!")
+     
+            if 'movement' in data.keys():
                 with app.test_request_context('/'):
-                    print('before emit!!!')
                     socketio.emit('news', data['movement'])
 
         # Initialize the device deviceCli.
@@ -125,53 +99,53 @@ class Bluemix (Thread):
             deviceCliOptions = {"org": organization, "type": deviceType, "id": deviceId, "auth-method": authMethod, "auth-token": authToken}
             deviceCli = ibmiotf.device.Client(deviceCliOptions)
         except Exception as e:
-            print_out("Caught exception connecting device: %s" % str(e))
+            print("Caught exception connecting device: %s" % str(e))
             sys.exit()
 
-        # Connect and sends a user event 5 times 
+        # Connect device to IBM Bluemix
         deviceCli.connect()
         deviceCli.commandCallback = myCommandCallback
 
-        users = ['jimmy', 'william', 'elias', 'dennis', 'mikael']
+        user = "123aa123aa12" # DeviceId of the smart wristband in proximity
 
         counter = 0;
-        # success = False
         while self.running:
-           
-            data = { 'user' : users[counter], 'x' : counter}
-            def myOnPublishCallback():
-                print_out("Confirmed event " + str(counter) +" received by IoTF\n" )
+            if stop_running.is_set():
+                self.running = False
+                deviceCli.disconnect()
+                print("Stoping bluemix thread ")
+            else:
+                if receive_movement.is_set():
+                    if not user_connect_sent.is_set():
+                        timestamp = datetime.now().strftime('%Y/%m/%d %H:%M:%S')
+                        print(timestamp)
+                        data = { 'user' : user, 'timestamp' : timestamp}
+                        def myOnPublishCallback():
+                            print("Confirmed event " + str(counter) +" received by IoTF\n" )
+                        
+                        success = deviceCli.publishEvent("user", "json", data, qos=0, on_publish=myOnPublishCallback)
+                        if not success:
+                            print("Not connected to IoTF")
+                        user_connect_sent.set()
 
-            # global success
-            # if not success:
-            success = deviceCli.publishEvent("user", "json", data, qos=0, on_publish=myOnPublishCallback)
-            sleep(2)
-            if not success:
-                print("Not connected to IoTF")
-
-            counter = (counter + 1) % len(users)
+        print('EXITING BLUEMIX THREAD')
 
 
+thread = None
+thread_2 = None
+"""  Events used to control the threads """
+stop_running = threading.Event() # event if threads should stop running
+receive_movement = threading.Event() # event if we should receive rmovements
+user_connect_sent = threading.Event()  # event if user connect is sent to bluemix
 
 
 @app.route('/')
 def index():
-    
     return render_template('index.html')
 
 @socketio.on('connect')
 def handle_connect():
-    global thread
-    global thread_2
-    if thread == None:
-        thread = Arduino()
-        thread.deamon = True
-        thread.start()
-    if thread_2 == None:
-        thread_2 = Bluemix()
-        thread_2.start()
     print('a user connected ')
-    
     emit('my response', {'data': 'connected'})
        
     
@@ -181,11 +155,9 @@ def handle_disconnect():
 
 @socketio.on('exit')
 def handle_exit(msg):
-    print('exit pressed')
-    thread.running = False
-    thread_2.runnin = False
-    sys.exit()
-    
+    print("Closing threads and server!")
+    close_threads()
+    socketio.stop()
 
 def send_message(msg) :
     emit('news', msg)
@@ -193,7 +165,17 @@ def send_message(msg) :
 def print_out(msg):
     print(msg)
 
+def close_threads():
+    print('In close threads!!!')
+    stop_running.set()
 
 if __name__ == '__main__':
-    
+    if thread == None:
+        thread = Arduino()
+        thread.deamon = True
+        thread.start()
+    if thread_2 == None:
+        thread_2 = Bluemix()
+        thread_2.deamon = True
+        thread_2.start()
     socketio.run(app)
