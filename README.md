@@ -8,15 +8,10 @@ Thread that connects to IBM Bluemix service receiving movement info from a eg. p
 Requirements: virtualenv installed
 Run the following steps:
 
-1. mkdir myproject
-2. cd myproject
-3. virtualenv venv
-4. On mac:
-    . venv/bin/activate
-   On Windows:
-    venv\Scripts\activate
-
-5. pip install -r requirements.txt
-
-6 Then you start with: 
-    python sockets.py 
+1. `mkdir myproject && cd $_`
+2. `virtualenv venv`
+3. 
+   * On mac: `. venv/bin/activate`
+   * On windows: `venv\Scripts\activate`
+4. `pip install -r requirements.txt`
+5. Then you start with: `python sockets.py`
